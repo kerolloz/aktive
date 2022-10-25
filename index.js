@@ -7,7 +7,7 @@ const GITHUB_REPO = "https://github.com/kerolloz/aktive";
 
 app.get("/", async (_, reply) => reply.redirect(GITHUB_REPO));
 
-// GET https://aktive.com/egypt/kerolloz
+// GET https://aktive.tk/egypt/kerolloz
 app.get("/:country/:username", async (request, reply) => {
   const { username, country } = request.params;
 
