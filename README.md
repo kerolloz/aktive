@@ -1,13 +1,14 @@
 <h1 align="left">Aktive 🟩
-<a target="_blank" href="https://fastify.io">
-  <img alt="fastify" align="right" src="https://t.ly/0o1a"/>
-</a>
-<a target="_blank" href="https://deta.sh">
-  <img alt="Deta" align="right" src="https://t.ly/-g08" />
-</a>
+<a target="_blank" href="https://fastify.io"><img alt="fastify" align="right" src="https://t.ly/0o1a"/></a>
+<a target="_blank" href="https://deta.sh"><img alt="Deta" align="right" src="https://t.ly/-g08" /></a>
 </h1>
 
 Aktive is a simple web-service returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
+
+> **Note**  
+>  
+> Aktive depends on the data provided by [lauripiispanen/github-top](//github.com/lauripiispanen/github-top).  
+> So please make sure that your name appears on your country list here [commits.top](https://commits.top).
 
 ## Docs
 
@@ -59,15 +60,15 @@ Redirects to this repository.
 
 #### GET `/rank/:country/:username`
 
+<a target="_blank" href="https://reqbin.com/c-1lldzybw ">
+  <img align="right" alt="Try it" src="https://img.shields.io/badge/-Try%20it-white?style=for-the-badge" />
+</a>
+
 - Returns a JSON object with your rank.
 
 **Same parameters** as [GET `/:country/:username`](#get-countryusername)
 
 ##### Example
-
-<a target="_blank" href="https://reqbin.com/c-1lldzybw ">
-  <img align="right" alt="Try it" src="https://img.shields.io/badge/-Try%20it-white?style=for-the-badge" />
-</a>
 
 ```bash
 $ curl https://aktive.tk/rank/egypt/kerolloz
