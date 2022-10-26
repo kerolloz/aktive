@@ -36,7 +36,7 @@ Redirects to this repository.
 ##### Query Parameters
 
 - `style` - Set the style of the badge. Can be one of `flat`, `flat-square`, `for-the-badge`, or `plastic`. Defaults to `flat`.
-- `label` - Set the left-hand-side text. Defaults to `:key`.
+- `label` - Set the left-hand-side text. Defaults to `Most Active GitHub User Rank`.
 - `color` - Set background of the right part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `brightgreen`.
 - `labelColor` -  Set background of the left part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `grey`.
 - `rnkPrefix` - Set prefix to display before the rank value. Defaults to `""` empty string.
