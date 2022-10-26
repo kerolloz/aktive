@@ -7,8 +7,7 @@
 </a>
 </h1>
 
-Aktive is a simple web-service that has a single HTTP endpoint.  
-It returns a badge that shows your rank among other GitHub users from your country according to your GitHub contributions.
+Aktive is a simple web-service returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
 
 ## Docs
 
@@ -57,6 +56,26 @@ Redirects to this repository.
 > ![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
 
 ---
+
+#### GET `/rank/:country/:username`
+
+- Returns a JSON object with your rank.
+
+**Same parameters** as [GET `/:country/:username`](#get-countryusername)
+
+##### Example
+
+<a target="_blank" href="https://reqbin.com/c-1lldzybw ">
+  <img align="right" alt="Try it" src="https://img.shields.io/badge/-Try%20it-white?style=for-the-badge" />
+</a>
+
+```bash
+$ curl https://aktive.tk/rank/egypt/kerolloz
+
+{
+    "rank": "154th"
+}
+```
 
 ### Deployment
 
