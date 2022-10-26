@@ -39,8 +39,8 @@ Redirects to this repository.
 - `label` - Set the left-hand-side text. Defaults to `:key`.
 - `color` - Set background of the right part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `brightgreen`.
 - `labelColor` -  Set background of the left part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `grey`.
-- `cntPrefix` - Set prefix to display before the counter value. Defaults to `""` empty string.
-- `cntSuffix` - Set suffix to display after the counter value. Defaults to `""` empty string.
+- `rnkPrefix` - Set prefix to display before the rank value. Defaults to `""` empty string.
+- `rnkSuffix` - Set suffix to display after the rank value. Defaults to `""` empty string.
 
 ##### Examples
 
@@ -50,11 +50,11 @@ Redirects to this repository.
 > `![badge](https://aktive.tk/egypt/kerolloz?style=flat-square&color=blue)`  
 > ![badge](https://aktive.tk/egypt/kerolloz?style=flat-square&color=blue)  
 
-> `![badge](https://aktive.tk/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&cntPrefix=Rank%20)`  
-> ![badge](https://aktive.tk/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&cntPrefix=Rank%20)
+> `![badge](https://aktive.tk/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&rnkPrefix=Rank%20)`  
+> ![badge](https://aktive.tk/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&rnkPrefix=Rank%20)
 
-> `![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&cntPrefix=Ranked%20&cntSuffix=%20In%20Egypt)`  
-> ![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&cntPrefix=Ranked%20&cntSuffix=%20In%20Egypt)
+> `![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)`  
+> ![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
 
 ---
 

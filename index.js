@@ -45,8 +45,8 @@ app.get("/:country/:username", async (request, reply) => {
     label = "Most Active GitHub User Rank",
     labelColor = "",
     color = "",
-    cntPrefix = "",
-    cntSuffix = "",
+    rnkPrefix = "",
+    rnkSuffix = "",
   } = request.query;
 
   try {
@@ -55,7 +55,7 @@ app.get("/:country/:username", async (request, reply) => {
       label,
       labelColor,
       color,
-      message: cntPrefix + userRank + cntSuffix,
+      message: rnkPrefix + userRank + rnkSuffix,
     });
 
     reply
