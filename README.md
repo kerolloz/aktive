@@ -3,7 +3,7 @@
 <a target="_blank" href="https://deta.sh"><img alt="Deta" align="right" src="https://t.ly/-g08" /></a>
 </h1>
 
-Aktive is a simple web-service returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
+Aktive is a simple web-service. It returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
 
 > **Note**  
 >  
