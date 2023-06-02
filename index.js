@@ -107,9 +107,10 @@ app.get("/:country/:username", async (request, reply) => {
 });
 
 const port = process.env.PORT || 3000;
-app.listen({ port }, (err) => {
+app.listen({ port, host: "0.0.0.0" }, (err) => {
   if (err) {
     console.error(err);
     process.exit(1);
   }
+  console.log(`Server listening on port ${port}`);
 });
