@@ -106,5 +106,10 @@ app.get("/:country/:username", async (request, reply) => {
   }
 });
 
-// no need for `app.listen()` on Deta, we run the app automatically.
-module.exports = app; // make sure to export your `app` instance.
+const port = process.env.PORT || 3000;
+app.listen({ port }, (err) => {
+  if (err) {
+    console.error(err);
+    process.exit(1);
+  }
+});
