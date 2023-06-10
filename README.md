@@ -7,8 +7,8 @@ Aktive is a simple web-service. It returns a badge (or JSON) that shows your ran
 
 > **Note**  
 >  
-> Aktive depends on the data provided by [lauripiispanen/github-top](//github.com/lauripiispanen/github-top).  
-> So please make sure that your name appears on your country list here [commits.top](https://commits.top).
+> Aktive depends on the data provided by [ashkulz/committers.top](//github.com/ashkulz/committers.top).  
+> So please make sure that your name appears on your country list here [committers.top](https://committers.top).
 
 ## Docs
 
