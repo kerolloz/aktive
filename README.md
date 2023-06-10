@@ -1,6 +1,6 @@
 <h1 align="left">Aktive 🟩
 <a target="_blank" href="https://fastify.io"><img alt="fastify" align="right" src="https://t.ly/0o1a"/></a>
-<a target="_blank" href="https://deta.sh"><img alt="Deta" align="right" src="https://t.ly/-g08" /></a>
+<a target="_blank" href="https://railway.app/"><img alt="Railway" align="right" src="https://t.ly/f5Sa" /></a>
 </h1>
 
 Aktive is a simple web-service. It returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
@@ -11,8 +11,6 @@ Aktive is a simple web-service. It returns a badge (or JSON) that shows your ran
 > So please make sure that your name appears on your country list here [commits.top](https://commits.top).
 
 ## Docs
-
-Aktive is powered by _Fastify_ and is designed to run on _Deta_.  
 
 ### Endpoints
 
@@ -74,17 +72,6 @@ Redirects to this repository.
 $ curl https://aktive.tk/rank/egypt/kerolloz
 
 {
-    "rank": "154th"
+    "rank": "108th"
 }
 ```
-
-### Deployment
-
-Feel free to use my version at <https://aktive.tk>.
-
-You can also deploy Aktive to your own Deta account by clicking the button below.  
-<a href="https://go.deta.dev/deploy?repo=https://github.com/kerolloz/aktive">
-  <img width="15%" alt="Deta Deploy Button" src="https://button.deta.dev/1/svg" />
-</a>
-
-<sub>This service is provided for free thanks to [Deta Micros](https://docs.deta.sh/docs/micros/about) and [Deta Base](https://docs.deta.sh/docs/base/about).</sub>
