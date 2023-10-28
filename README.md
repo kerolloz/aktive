@@ -14,7 +14,7 @@ Aktive is a simple web-service. It returns a badge (or JSON) that shows your ran
 
 ### Endpoints
 
-> Base URL: <https://aktive.tk>
+> Base URL: <https://aktive.kerolloz.dev>
 
 #### GET `/`
 
@@ -42,17 +42,17 @@ Redirects to this repository.
 
 ##### Examples
 
-> `![badge](https://aktive.tk/egypt/kerolloz)`  
-> ![badge](https://aktive.tk/egypt/kerolloz)
+> `![badge](https://aktive.kerolloz.dev/egypt/kerolloz)`  
+> ![badge](https://aktive.kerolloz.dev/egypt/kerolloz)
 
-> `![badge](https://aktive.tk/egypt/kerolloz?style=flat-square&color=blue)`  
-> ![badge](https://aktive.tk/egypt/kerolloz?style=flat-square&color=blue)  
+> `![badge](https://aktive.kerolloz.dev/egypt/kerolloz?style=flat-square&color=blue)`  
+> ![badge](https://aktive.kerolloz.dev/egypt/kerolloz?style=flat-square&color=blue)  
 
-> `![badge](https://aktive.tk/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&rnkPrefix=Rank%20)`  
-> ![badge](https://aktive.tk/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&rnkPrefix=Rank%20)
+> `![badge](https://aktive.kerolloz.dev/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&rnkPrefix=Rank%20)`  
+> ![badge](https://aktive.kerolloz.dev/egypt/kerolloz?label=Most%20Active%20GitHub%20User%20In%20Egypt&labelColor=white&rnkPrefix=Rank%20)
 
-> `![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)`  
-> ![badge](https://aktive.tk/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
+> `![badge](https://aktive.kerolloz.dev/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)`  
+> ![badge](https://aktive.kerolloz.dev/egypt/kerolloz?label=&color=cyan&style=for-the-badge&rnkPrefix=Ranked%20&rnkSuffix=%20In%20Egypt)
 
 ---
 
@@ -69,7 +69,7 @@ Redirects to this repository.
 ##### Example
 
 ```bash
-$ curl https://aktive.tk/rank/egypt/kerolloz
+$ curl https://aktive.kerolloz.dev/rank/egypt/kerolloz
 
 {
     "rank": "108th"
