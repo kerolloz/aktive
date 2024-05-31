@@ -3,7 +3,7 @@
 <a target="_blank" href="https://railway.app/"><img alt="Railway" align="right" src="https://img.shields.io/static/v1?label=&message=Railway&style=for-the-badge&color=grey&logo=railway" /></a>
 </h1>
 
-Aktive is a simple web-service. It returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
+Aktive is a simple web service. It returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
 
 > **Note**  
 >  
@@ -11,6 +11,9 @@ Aktive is a simple web-service. It returns a badge (or JSON) that shows your ran
 > So please make sure that your name appears on your country list here [committers.top](https://committers.top).
 
 ## Docs
+
+> [!NOTE]
+> You can also check the Swagger [API documentation](https://kounter.kerolloz.dev/swagger) for more details.
 
 ### Endpoints
 
@@ -35,8 +38,8 @@ Redirects to this repository.
 
 - `style` - Set the style of the badge. Can be one of `flat`, `flat-square`, `for-the-badge`, or `plastic`. Defaults to `flat`.
 - `label` - Set the left-hand-side text. Defaults to `Most Active GitHub User Rank`.
-- `color` - Set background of the right part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `brightgreen`.
-- `labelColor` -  Set background of the left part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `grey`.
+- `color` - Set the background of the right part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `brightgreen`.
+- `labelColor` -  Set the background of the left part (hex, rgb, rgba, hsl, hsla and css named colors supported). Defaults to `grey`.
 - `rnkPrefix` - Set prefix to display before the rank value. Defaults to `""` empty string.
 - `rnkSuffix` - Set suffix to display after the rank value. Defaults to `""` empty string.
 
