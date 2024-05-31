@@ -33,4 +33,3 @@ export const aktiveRequestSchema = {
       .describe('The suffix to display after the rank value.'),
   }),
 };
-
