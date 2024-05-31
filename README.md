@@ -1,6 +1,6 @@
 <h1 align="left">Aktive 🟩
-<a target="_blank" href="https://fastify.io"><img alt="fastify" align="right" src="https://t.ly/0o1a"/></a>
-<a target="_blank" href="https://railway.app/"><img alt="Railway" align="right" src="https://t.ly/f5Sa" /></a>
+<a target="_blank" href="https://fastify.io"><img alt="fastify" align="right" src="https://img.shields.io/static/v1?logo=fastify&label=&message=Fastify&style=for-the-badge&color=grey"/></a>
+<a target="_blank" href="https://railway.app/"><img alt="Railway" align="right" src="https://img.shields.io/static/v1?label=&message=Railway&style=for-the-badge&color=grey&logo=railway" /></a>
 </h1>
 
 Aktive is a simple web-service. It returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.
