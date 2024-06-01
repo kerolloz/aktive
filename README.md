@@ -13,7 +13,7 @@ Aktive is a simple web service. It returns a badge (or JSON) that shows your ran
 ## Docs
 
 > [!NOTE]
-> You can also check the Swagger [API documentation](https://akitve.kerolloz.dev/swagger) for more details.
+> You can also check the Swagger [API documentation](https://aktive.kerolloz.dev/swagger) for more details.
 
 ### Endpoints
 
