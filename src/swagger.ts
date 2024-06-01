@@ -7,12 +7,12 @@ export const registerSwagger = (app: FastifyInstance) => {
   app.register(fastifySwagger, {
     openapi: {
       info: {
-        title: 'Kounter',
+        title: 'Aktive',
         description:
-          'Kounter is a simple counter service that can be used in a variety of ways.',
+          'Aktive is a simple web service. It returns a badge (or JSON) that shows your rank among other GitHub users from your country according to your GitHub contributions.',
         contact: {
           name: 'Kerollos Magdy',
-          url: 'https://kounter.kerolloz.dev',
+          url: 'https://aktive.kerolloz.dev',
           email: 'kerolloz@yahoo.com',
         },
         version: '1.0.0',
