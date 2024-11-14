@@ -75,6 +75,6 @@ Redirects to this repository.
 $ curl https://aktive.kerolloz.dev/rank/egypt/kerolloz
 
 {
-    "rank": "108th"
+    "rank": "109th"
 }
 ```
