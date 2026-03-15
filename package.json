@@ -20,20 +20,20 @@
   "homepage": "https://github.com/kerolloz/aktive#readme",
   "description": "",
   "dependencies": {
-    "@fastify/swagger": "^8.14.0",
-    "@fastify/swagger-ui": "^3.0.0",
-    "axios": "^1.7.2",
-    "badge-maker": "^3.3.1",
-    "fastify": "^4.27.0",
-    "fastify-type-provider-zod": "^1.2.0",
+    "@fastify/swagger": "^9.7.0",
+    "@fastify/swagger-ui": "^5.2.5",
+    "axios": "^1.13.6",
+    "badge-maker": "^5.0.2",
+    "fastify": "^5.8.2",
+    "fastify-type-provider-zod": "^6.1.0",
     "ordinal": "^1.0.3",
     "yamljs": "^0.3.0",
-    "zod": "^3.23.8"
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.7.3",
+    "@biomejs/biome": "^2.4.7",
     "@types/bun": "latest",
     "@types/yamljs": "^0.2.34",
-    "typescript": "^5.4.5"
+    "typescript": "^5.9.3"
   }
 }
