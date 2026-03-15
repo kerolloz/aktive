@@ -61,7 +61,7 @@ Redirects to this repository.
 
 #### GET `/rank/:country/:username`
 
-<a target="_blank" href="https://reqbin.com/c-1lldzybw ">
+<a target="_blank" href="https://reqbin.com/c-cfnphfal ">
   <img align="right" alt="Try it" src="https://img.shields.io/badge/-Try%20it-white?style=for-the-badge" />
 </a>
 
